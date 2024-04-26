@@ -2,7 +2,7 @@ const profiles = [
   {
     name: "Sediq",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Sediq.jpg",
     age: 29,
     itSkills: ["HTML", "CSS", "C++"],
     hobby: ["Football", "Reading"],
@@ -10,25 +10,25 @@ const profiles = [
   {
     name: "Kashif",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Kashif.jpg",
     age: 20,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobby: ["Coding, Playing board games"],
+    hobby: ["Coding", "Playing board games"],
   },
 
   {
     name: "Yurii",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Yurii.jpg",
     age: 40,
     itSkills: ["Typescript", "CSS", "HTML"],
-    hobby: ["Reading", "Medel Building"],
+    hobby: ["Reading", "Model Building"],
   },
 
   {
     name: "Tugba",
     gender: "Female",
-    img: "#",
+    img: "../images/profiles/Tugba.jpg",
     age: 38,
     itSkills: ["Javascript", "React.js", "HTML"],
     hobby: ["Hiking", "New Language"],
@@ -37,7 +37,7 @@ const profiles = [
   {
     name: "Juan",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Juan.jpg",
     age: 36,
     itSkills: ["Node.js", "CSS", "HTML"],
     hobby: ["Snowboarding", "Fishing"],
@@ -46,7 +46,7 @@ const profiles = [
   {
     name: "Shakir",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Shakir.jpg",
     age: 24,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Tennis", "Maritial Arts"],
@@ -55,7 +55,7 @@ const profiles = [
   {
     name: "Enes",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Enes.jpg",
     age: 36,
     itSkills: ["Javascript", "Python", "HTML"],
     hobby: ["Painting", "Basketball"],
@@ -64,7 +64,7 @@ const profiles = [
   {
     name: "Frank",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Frank.jpg",
     age: 33,
     itSkills: ["Algorithms", "CSS", "HTML"],
     hobby: ["Writting", "Astronomy"],
@@ -73,7 +73,7 @@ const profiles = [
   {
     name: "Olena",
     gender: "Female",
-    img: "#",
+    img: "../images/profiles/Olena.jpg",
     age: 32,
     itSkills: ["Javascript", "React Native", "HTML"],
     hobby: ["Cooking", "Drawing"],
@@ -82,7 +82,7 @@ const profiles = [
   {
     name: "Nizami",
     gender: "Male",
-    img: "#",
+    img: "../images/profiles/Nizami.jpg",
     age: 34,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Photgraphy", "Poetry"],
@@ -91,7 +91,7 @@ const profiles = [
   {
     name: "Violett",
     gender: "Female",
-    img: "#",
+    img: "../images/profiles/Violett.jpg",
     age: 23,
     itSkills: ["Testing", "CSS", "HTML"],
     hobby: ["Playing piano", "Knitting"],
@@ -100,7 +100,7 @@ const profiles = [
   {
     name: "Olga",
     gender: "Female",
-    img: "#",
+    img: "../images/profiles/Olga.jpg",
     age: 30,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Cooking", "Volunteering"],
