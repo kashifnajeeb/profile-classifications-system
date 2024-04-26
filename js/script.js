@@ -6,19 +6,26 @@ const categoriesList = document.querySelector("#categories-list");
 
 const renderedProfileNames = new Set();
 
+const renderCardHtml = (profile) => {
+  return `<figure class="cardContainer">
+      <img loading="lazy" alt=${profile.name} src=${profile.img} />
+      <figcaption class="informations">
+        <span>Name: ${profile.name}</span>
+        <span>Age: ${profile.age} </span>
+        <span>Gender: ${profile.gender} </span>
+        <span>Hobbies: ${profile.hobbies.join(", ")} </span>
+        <span>IT Skills: ${profile.itSkills.join(", ")} </span>
+      </figcaption>
+    </figure>`;
+};
+
+profiles.forEach((profile) => {
+  cardsContainer.innerHTML += renderCardHtml(profile);
+});
+
 const renderCards = (profile) => {
   if (!renderedProfileNames.has(profile.name)) {
-    cardsContainer.innerHTML += `
-      <figure class="cardContainer">
-        <img loading="lazy" alt=${profile.name} src=${profile.img} />
-        <figcaption class="informations">
-          <span>Name: ${profile.name}</span>
-          <span>Age: ${profile.age} </span>
-          <span>Gender: ${profile.gender} </span>
-          <span>Hobbies: ${profile.hobbies.join(", ")} </span>
-          <span>IT Skills: ${profile.itSkills.join(", ")} </span>
-        </figcaption>
-      </figure>`;
+    cardsContainer.innerHTML += renderCardHtml(profile);
     renderedProfileNames.add(profile.name);
   }
 };
