@@ -1,12 +1,16 @@
 const profArr = [
 {
     name: "Sediq",
+    gender: "Male",
+    img: "#",
     age: 29,
     itSkills: ["HTML", "CSS", "C++"],
     hobby: ["Football", "Reading"]
 },
 {
     name: "Kashif",
+    gender: "Male",
+    img: "#",
     age: 20,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Coding, Playing board games"],
@@ -14,6 +18,8 @@ const profArr = [
 
 {
     name: "Yurii",
+    gender: "Male",
+    img: "#",
     age: 40,
     itSkills: ["Typescript", "CSS", "HTML"],
     hobby: ["Reading", "Medel Building"]
@@ -21,6 +27,8 @@ const profArr = [
 
 {
     name: "Tugba",
+    gender: "Female",
+    img: "#",
     age: 38,
     itSkills: ["Javascript", "React.js", "HTML"],
     hobby: ["Hiking", "New Language"]
@@ -28,6 +36,8 @@ const profArr = [
 
 {
     name: "Juan",
+    gender: "Male",
+    img: "#",
     age: 36,
     itSkills: ["Node.js", "CSS", "HTML"],
     hobby: ["Snowboarding", "Fishing"]
@@ -35,6 +45,8 @@ const profArr = [
 
 {
     name: "Shakir",
+    gender: "Male",
+    img: "#",
     age: 24,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Tennis", "Maritial Arts"]
@@ -42,6 +54,8 @@ const profArr = [
 
 {
     name: "Enes",
+    gender: "Male",
+    img: "#",
     age: 36,
     itSkills: ["Javascript", "Python", "HTML"],
     hobby: ["Painting", "Basketball"]
@@ -49,6 +63,8 @@ const profArr = [
 
 {
     name: "Frank",
+    gender: "Male",
+    img: "#",
     age: 33,
     itSkills: ["Algorithms", "CSS", "HTML"],
     hobby: ["Writting", "Astronomy"]
@@ -56,6 +72,8 @@ const profArr = [
 
 {
     name: "Olena",
+    gender: "Female",
+    img: "#",
     age: 32,
     itSkills: ["Javascript", "React Native", "HTML"],
     hobby: ["Cooking", "Drawing"]
@@ -63,6 +81,8 @@ const profArr = [
 
 {
     name: "Nizami",
+    gender: "Male",
+    img: "#",
     age: 34,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Photgraphy", "Poetry"]
@@ -70,6 +90,8 @@ const profArr = [
 
 {
     name: "Violett",
+    gender: "Female",
+    img: "#",
     age: 23,
     itSkills: ["Testing", "CSS", "HTML"],
     hobby: ["Playing piano", "Knitting"]
@@ -77,6 +99,8 @@ const profArr = [
 
 {
     name: "Olga",
+    gender: "Female",
+    img: "#",
     age: 30,
     itSkills: ["Javascript", "CSS", "HTML"],
     hobby: ["Cooking", "Volunteering"]
