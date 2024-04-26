@@ -6,6 +6,10 @@ header {
   background-color: var(--tertiary-color);
 }
 
+header img {
+  width: 5rem;
+}
+
 header a {
   color: var(--main-color);
   font-size: 1.6rem;
