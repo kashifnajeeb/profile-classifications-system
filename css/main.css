@@ -4,25 +4,25 @@ main {
   gap: 5rem;
 }
 
-#category{
-    border: 1px solid rgb(172, 172, 172);
-    border-radius: 10px;
+#categories {
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 10px;
 }
 
-#category h3 {
+#categories h3 {
   margin: 5px auto;
   text-align: center;
   font-size: 2rem;
 }
 
-#category li {
+#categories li {
   padding: 10px 20px;
   border-radius: 10px;
   margin: 5px auto;
   font-size: 1.5rem;
 }
 
-#category li span {
+#categories li span {
   padding: 0 20px;
 }
 
