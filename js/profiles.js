@@ -5,7 +5,7 @@ const profiles = [
     img: "../images/profiles/Sediq.jpg",
     age: 29,
     itSkills: ["HTML", "CSS", "C++"],
-    hobby: ["Football", "Reading"],
+    hobbies: ["Football", "Reading"],
   },
   {
     name: "Kashif",
@@ -13,7 +13,7 @@ const profiles = [
     img: "../images/profiles/Kashif.jpg",
     age: 20,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobby: ["Coding", "Playing board games"],
+    hobbies: ["Coding", "Playing board games"],
   },
 
   {
@@ -22,7 +22,7 @@ const profiles = [
     img: "../images/profiles/Yurii.jpg",
     age: 40,
     itSkills: ["Typescript", "CSS", "HTML"],
-    hobby: ["Reading", "Model Building"],
+    hobbies: ["Reading", "Model Building"],
   },
 
   {
@@ -31,7 +31,7 @@ const profiles = [
     img: "../images/profiles/Tugba.jpg",
     age: 38,
     itSkills: ["Javascript", "React.js", "HTML"],
-    hobby: ["Hiking", "New Language"],
+    hobbies: ["Hiking", "New Language"],
   },
 
   {
@@ -40,7 +40,7 @@ const profiles = [
     img: "../images/profiles/Juan.jpg",
     age: 36,
     itSkills: ["Node.js", "CSS", "HTML"],
-    hobby: ["Snowboarding", "Fishing"],
+    hobbies: ["Snowboarding", "Fishing"],
   },
 
   {
@@ -49,7 +49,7 @@ const profiles = [
     img: "../images/profiles/Shakir.jpg",
     age: 24,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobby: ["Tennis", "Maritial Arts"],
+    hobbies: ["Tennis", "Maritial Arts"],
   },
 
   {
@@ -58,7 +58,7 @@ const profiles = [
     img: "../images/profiles/Enes.jpg",
     age: 36,
     itSkills: ["Javascript", "Python", "HTML"],
-    hobby: ["Painting", "Basketball"],
+    hobbies: ["Painting", "Basketball"],
   },
 
   {
@@ -67,7 +67,7 @@ const profiles = [
     img: "../images/profiles/Frank.jpg",
     age: 33,
     itSkills: ["Algorithms", "CSS", "HTML"],
-    hobby: ["Writting", "Astronomy"],
+    hobbies: ["Writting", "Astronomy"],
   },
 
   {
@@ -76,7 +76,7 @@ const profiles = [
     img: "../images/profiles/Olena.jpg",
     age: 32,
     itSkills: ["Javascript", "React Native", "HTML"],
-    hobby: ["Cooking", "Drawing"],
+    hobbies: ["Cooking", "Drawing"],
   },
 
   {
@@ -85,7 +85,7 @@ const profiles = [
     img: "../images/profiles/Nizami.jpg",
     age: 34,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobby: ["Photgraphy", "Poetry"],
+    hobbies: ["Photgraphy", "Poetry"],
   },
 
   {
@@ -94,7 +94,7 @@ const profiles = [
     img: "../images/profiles/Violett.jpg",
     age: 23,
     itSkills: ["Testing", "CSS", "HTML"],
-    hobby: ["Playing piano", "Knitting"],
+    hobbies: ["Playing piano", "Knitting"],
   },
 
   {
@@ -103,7 +103,7 @@ const profiles = [
     img: "../images/profiles/Olga.jpg",
     age: 30,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobby: ["Cooking", "Volunteering"],
+    hobbies: ["Cooking", "Volunteering"],
   },
 ];
 
