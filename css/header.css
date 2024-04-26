@@ -1,9 +1,17 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 2rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--tertiary-color);
 }
 
 header a {
+  color: var(--main-color);
   font-size: 1.6rem;
+  transition: all 0.3s linear;
+}
+
+header a:hover {
+  color: var(--secondary-color);
 }
