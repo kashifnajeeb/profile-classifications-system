@@ -15,6 +15,14 @@ const profiles = [
     itSkills: ["Javascript", "CSS", "HTML"],
     hobbies: ["Coding", "Board games"],
   },
+  {
+    name: "Nizami",
+    gender: "Male",
+    img: "../images/profiles/Nizami.jpg",
+    age: 34,
+    itSkills: ["Javascript", "CSS", "HTML"],
+    hobbies: ["Photgraphy", "Poetry"],
+  },
 
   {
     name: "Yurii",
@@ -77,15 +85,6 @@ const profiles = [
     age: 32,
     itSkills: ["Javascript", "React Native", "HTML"],
     hobbies: ["Cooking", "Drawing"],
-  },
-
-  {
-    name: "Nizami",
-    gender: "Male",
-    img: "../images/profiles/Nizami.jpg",
-    age: 34,
-    itSkills: ["Javascript", "CSS", "HTML"],
-    hobbies: ["Photgraphy", "Poetry"],
   },
 
   {
