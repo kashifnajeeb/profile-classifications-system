@@ -11,7 +11,7 @@ profiles.forEach(
     <span>Name: ${profile.name}</span>
     <span>Age: ${profile.age} </span>
     <span>Gender: ${profile.gender} </span>
-    <span>Hobbies: ${profile.hobby}  </span>
+    <span>Hobbies: ${profile.hobbies}  </span>
     <span>IT Skills: ${profile.itSkills} </span>
   </figcaption>
 </figure>`)
