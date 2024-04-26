@@ -22,12 +22,19 @@ profiles.forEach(
 </figure>`)
 );
 
-categories.forEach(
-  (category) =>
-    (categoriesList.innerHTML += `<li>
+categories.forEach((category) => {
+  return (categoriesList.innerHTML += `<li>
 <label for=${category}>
-  <input type="checkbox" id=${category} name=${category} />
+  <input class="categories-filter-input" type="checkbox" id=${category} name=${category} />
   <span>${category}</span>
 </label>
-</li>`)
-);
+</li>`);
+});
+
+const inputBoxes = categoriesList.querySelectorAll(".categories-filter-input");
+
+inputBoxes.forEach((inputBox) => {
+  inputBox.addEventListener("change", () => {
+    console.log(inputBox.getAttribute("id"), inputBox.checked);
+  });
+});
