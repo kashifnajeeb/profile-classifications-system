@@ -4,10 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Classification System</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <span>Logo</span>
+      <ul>
+        <li><a href="#">Profiles</a></li>
+      </ul>
+    </header>
     <section></section>
-    <main></main>
+    <main>
+      <section id="category" >
+        <h3>Categories</h3>
+        <ul>
+          <li>
+            <label for="html">
+            <input type="checkbox" id="html" name="html"> 
+            <span>HTML</span>
+            </label>
+          </li>
+          <li>
+            <label for="css">
+            <input type="checkbox" id="css" name="css"> 
+            <span>Css</span>
+            </label>
+          </li>
+          <li>
+            <label for="javascript">
+            <input type="checkbox" id="javascript" name="javascript"> 
+            <span>JavaScript</span>
+            </label>
+          </li>
+        </ul>
+      </section>
+      <section id="cardsContainer">
+        <figure id="cardContainer">
+          <img alt="profile_pic"></img>
+          <figcaption id="informations">
+            <span>Name: </span>
+            <span>Age: </span>
+            <span>Gender: </span>
+            <span>Hobbies: </span>
+            <span>IT Skills: </span>
+          </figcaption>
+        </figure>
+        <figure id="cardContainer">
+          <img alt="profile_pic"></img>
+          <figcaption id="informations">
+            <span>Name: </span>
+            <span>Age: </span>
+            <span>Gender: </span>
+            <span>Hobbies: </span>
+            <span>IT Skills: </span>
+          </figcaption>
+        </figure>
+        <figure id="cardContainer">
+          <img alt="profile_pic"></img>
+          <figcaption id="informations">
+            <span>Name: </span>
+            <span>Age: </span>
+            <span>Gender: </span>
+            <span>Hobbies: </span>
+            <span>IT Skills: </span>
+          </figcaption>
+        </figure>
+      </section>
+    </main>
   </body>
 </html>
