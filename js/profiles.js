@@ -13,7 +13,7 @@ const profiles = [
     img: "../images/profiles/Kashif.jpg",
     age: 20,
     itSkills: ["Javascript", "CSS", "HTML"],
-    hobbies: ["Coding", "Playing board games"],
+    hobbies: ["Coding", "Board games"],
   },
 
   {
