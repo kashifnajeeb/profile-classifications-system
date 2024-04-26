@@ -8,6 +8,13 @@
   text-decoration: none;
 }
 
+:root {
+  --main-color: #264653;
+  --secondary-color: #2a9d8f;
+  --tertiary-color: #f4a261;
+  --fourier-color: #e9c46a;
+}
+
 html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
