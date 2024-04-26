@@ -25,13 +25,6 @@ body {
   box-sizing: border-box;
 }
 
-*:where(
-    :not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)
-  ) {
-  all: unset;
-  display: revert;
-}
-
 *::selection {
   background-color: var(--main-color);
   color: var(--fourier-color);
