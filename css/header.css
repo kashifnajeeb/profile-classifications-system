@@ -3,3 +3,7 @@ header {
   justify-content: space-between;
   margin: 1rem 2rem;
 }
+
+header a {
+  font-size: 1.6rem;
+}
