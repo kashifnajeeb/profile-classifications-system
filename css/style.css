@@ -105,5 +105,6 @@ p {
 }
 
 .container {
+  max-width: 140rem;
   margin: 2rem auto;
 }
